@@ -10,3 +10,18 @@ Did you use const or let to declare the pizza variable? What is the difference b
 Lastly, explain the scope of your function parameter and the pizza variable. 
 */
 
+let pizza = "Pineapple"
+
+function checkNumber(number){
+    if (number > 0){
+        return "positive"
+    }
+    else if (number < 0){
+        return "negative"
+    }
+    else (number = 0) 
+        return "zero"
+}
+
+let pizza = "mushroom"
+
